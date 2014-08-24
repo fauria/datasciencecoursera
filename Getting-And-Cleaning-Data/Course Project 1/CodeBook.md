@@ -16,9 +16,9 @@ The cleaned data generated is stored in the "tidy_dataset.txt" file.
 
 ### Transformations 
 The following transformations were performed:
-. Read activity labels, and store them using "activity_id" and "activity_name" column names.
-. Read features, and store them using "feature_id" and "feature_name" column names.
-. For both test and train data, read subject as "subject_id", y_test as "activity_id" and X_test.
-. Append "subject_id" and "activity_id" to every column matching "mean" or "std" in X_test, and store it in two variables, each one for test and train data.
-. Merge both variables and append the activity name based on the "activity_id" column.
-. Save the result to a text file "tidy_dataset.txt".
+- Read activity labels, and store them using "activity_id" and "activity_name" column names.
+- Read features, and store them using "feature_id" and "feature_name" column names.
+- For both test and train data, read subject as "subject_id", y_test as "activity_id" and X_test.
+- Append "subject_id" and "activity_id" to every column matching "mean" or "std" in X_test, and store it in two variables, each one for test and train data.
+- Merge both variables and append the activity name based on the "activity_id" column.
+- Save the result to a text file "tidy_dataset.txt".
